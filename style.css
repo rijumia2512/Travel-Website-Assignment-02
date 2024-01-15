@@ -1,0 +1,56 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* Nav Style Here  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 152px;
+    background: #FFF;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .logo span{
+    color: aqua;
+}
+.navbar .logo-text{
+    font-size: 2.25rem;
+}
+.navbar .nav-list ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-list ul li {
+    margin: 20px;
+}
+.nav-list ul li a{
+    color: black;
+}
+.nav-list ul li:first-child a {
+    color: peru;
+}
+/* for mobile  */
+.nav-menu {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
