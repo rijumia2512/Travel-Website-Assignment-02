@@ -11,46 +11,104 @@ a {
 }
 
 /* Nav Style Here  */
-.navbar {
+nav{
     display: flex;
     justify-content: space-between;
+    margin:50px 0;
+}
+nav ul,.logo{
+    display:flex;
     align-items: center;
-    margin: 50px 152px;
-    background: #FFF;
 }
-.navbar .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.navbar .logo span{
-    color: aqua;
-}
-.navbar .logo-text{
-    font-size: 2.25rem;
-}
-.navbar .nav-list ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-.nav-list ul li {
-    margin: 20px;
-}
-.nav-list ul li a{
-    color: black;
-}
-.nav-list ul li:first-child a {
-    color: peru;
-}
-/* for mobile  */
-.nav-menu {
-    display: none;
+.logo h2{
+    margin-left: 20px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
     cursor: pointer;
 }
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
+.orange{
+    color: #FF5400;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 44px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    color:#FF5400;
+}
+.menu{
+    display: none;
+    font-size: 40px;
+}
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin:0 auto;
+}
+.banner{
+    height: 600px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('images/header1.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.banner-heading{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin:54px 0px;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: 45px;
+}
+.input-content{
+    display:flex;
+    max-width: 768px;
+    height: 80px;
+    margin:0 auto;
+    gap:24px;
+    padding:16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);  
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+.button input[type='button']{
+    padding: 0 20px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button input[type='button']:hover{
+    background-color: #aa410c;
 }
