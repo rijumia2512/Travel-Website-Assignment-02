@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,9 +17,9 @@
                 <h2>Travel <span class="orange">X</span></h2>
             </div>
             <ul>
-                <li><a class="orange" href="">Home</a></li>
+                <li><a class="orange" href="#Home">Home</a></li>
                 <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
+                <li><a href="#testimonial-section">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -26,10 +27,12 @@
                 <i class="ri-menu-fill"></i>
             </div>
         </nav>
-        <!-- Nav End -->
-        <div class="banner">
+
+        
+
+        <div class="banner" id="Home">
             <div class="banner-text-content">
-                <h1 class="banner-heading">Explore Beyond Horizons</h1>
+                <h1 class="banner-heading">Discover Beyond Limits</h1>
                 <p class="banner-description">we believe that every journey is an opportunity for adventure, discovery, and unforgettable memories. Whether you're a seasoned traveler or planning your first getaway, our platform is your gateway to a world of possibilities. </p>
             </div>
             <div class="input-content">
@@ -38,9 +41,15 @@
                 </div>
                 <div class="input-2">
                     <input type="text" placeholder="When">
+                    <!-- <select class="option-style">
+                        <option value="when">When</option>
+                    </select>   -->
                 </div>
                 <div class="input-3">
                     <input type="text" placeholder="Select Type">
+                    <!-- <select class="option-style">
+                        <option value="Select Type">Select Type</option>
+                    </select> -->
                 </div>
                 <div class="button">
                     <input type="button" value="Find Now">
@@ -62,7 +71,7 @@
                     <p class="discription"> This tour is perfect for nature enthusiasts and adventure seekers alike.
                         Hike through scenic trails, discover hidden waterfalls, and immerse yourself in the beauty of
                         the great outdoors.</p>
-                    <button class="main-btn">Read More</button>
+                    <button class="btn-primary">Read More</button>
                 </div>
 
 
@@ -160,7 +169,7 @@
                             Welcome to a destination where sunsets paint the sky in hues of orange and pink, and azure waters meet whitewashed buildings perched on volcanic cliffs.
                         </p>
                         <h3 class="package-price orange">Price : $1300-$1500</h3>
-                        <button class="main-btn">Book Now</button>
+                        <button class="btn-primary">Book Now</button>
                     </div>
                 </div>
                 <div class="packages-2">
@@ -184,7 +193,7 @@
                             Welcome to a destination where sunsets paint the sky in hues of orange and pink, and azure waters meet whitewashed buildings perched on volcanic cliffs.
                         </p>
                         <h3 class="package-price orange">Price : $1300-$1500</h3>
-                        <button class="main-btn">Book Now</button>
+                        <button class="btn-primary">Book Now</button>
                     </div>
                 </div>
                 <div class="packages-1">
@@ -208,13 +217,13 @@
                             Welcome to a destination where sunsets paint the sky in hues of orange and pink, and azure waters meet whitewashed buildings perched on volcanic cliffs.
                         </p>
                         <h3 class="package-price orange">Price : $1300-$1500</h3>
-                        <button class="main-btn">Book Now</button>
+                        <button class="btn-primary">Book Now</button>
                     </div>
                 </div>
 
 
                 <div class="packages-btn">
-                    <button class="main-btn">See All Packages</button>
+                    <button class="btn-primary">See All Packages</button>
                 </div>
             </div>
         </section>
@@ -237,7 +246,7 @@
                             <strong>Quaint Villages and Charming Towns: Lose yourself in the charm of quaint villages and small towns that seem frozen in time. Wander through cobblestone streets,</strong>
                         </li>
                     </ul>
-                    <button class="main-btn">See More</button>
+                    <button class="btn-primary">See More</button>
                 </div>
                 <div class="perfect-place-video">
                     <video src="images/video.mp4"
@@ -247,8 +256,29 @@
         </section>
 
 
-        <section>
+        <section id="testimonial-section">
+            <div class="container testimonial-container">
+                <div class="testimonial-heading">
+                    <h2>Reviews From Adventurous Explorers</h2>
+                </div>
+                <div class="testimonial">
+                    <img src="images/user.png" alt="User 1">
+                    <p>“A big shoutout to the TravelX team for their exceptional customer service. Our plans had to change last minute, and they went above and beyond to accommodate us. We felt well taken care of, and our vacation turned out better than we could have imagined!”</p>
+                    <p><strong>— Michael and Jessica, Spontaneous Explorers</strong></p>
+                </div>
+        
+                <div class="testimonial">
+                    <img src="images/user.png" alt="User 2">
+                    <p>“TravelX made our vacation seamless and unforgettable! From booking flights to finding the perfect accommodations, their attention to detail and personalized service exceeded our expectations. We can't wait to plan our next adventure with TravelX!”</p>
+                    <p><strong>— Sarah and Mark, Adventure Enthusiasts</strong></p>
+                </div>
 
+                <div class="testimonial">
+                    <img src="images/user.png" alt="User 2">
+                    <p>“As frequent travelers, we've tried many platforms, but TravelX stands out for its user-friendly interface and a wide range of options. The ability to customize our itinerary and the support from their travel experts made our trip truly special. Thank you, TravelX!”</p>
+                    <p><strong>— James and Emily, Jetsetters</strong></p>
+                </div>
+            </div>
         </section>
 
 
@@ -262,7 +292,7 @@
                     <form class="new-letter-form">
                         <input type="text" name="" id="" placeholder="Enter your name">
                         <input type="email" name="" id="" placeholder="Enter your email">
-                        <div class="newletter-btn"><button class="main-btn">Subscribe</button></div>
+                        <div class="newletter-btn"><button class="btn-primary">Subscribe</button></div>
                     </form>
                 </div>
                 <div class="new-letter-img-content">
@@ -284,13 +314,13 @@
                 <p class="discription">"Explore the world with TravelX. We specialize in crafting unforgettable travel experiences that cater to your unique interests and preferences. Whether you're seeking adventurous getaways, cultural discoveries, or tranquil retreats, we have the perfect journey for you. Let us be your trusted companion in exploration!"</p>
             </div>
             <div class="footer-icon">
-                <i class="ri-facebook-fill"></i>
-                <i class="ri-github-fill"></i>
-                <i class="ri-linkedin-fill"></i>
-                <i class="ri-instagram-line"></i>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-line"></i></a>
+                <a href=""><i class="ri-github-fill"></i></a>
+                <a href=""><i class="ri-linkedin-fill"></i></a>
             </div>
             <hr class="footer-hr">
-            <p class="footer-copy-right">2017, All Rights Reserved.</p>
+            <p class="footer-copy-right">2024, All Rights Reserved.</p>
         </div>
     </footer>
 </body>
